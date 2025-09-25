@@ -1,0 +1,185 @@
+/*
+============================
+Name: PICO - Personal Portfolio HTML Templete
+Version: 1.0.0
+Description: PICO - Personal Portfolio HTML Templete
+Author: Vikiglab
+Author URI: https://themeforest.net/user/vikinglab/portfolio
+Location:
+============================
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+h1 ,h2 , h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0px;
+    font-family: 'Outfit', sans-serif;
+}
+body, html {
+    height: 100%;
+}
+a:hover, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+.body {
+    font-size: 14px;
+}
+.wrapper {
+    position: relative;
+    height: 100%;
+}
+.left-side {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    height: 100%;   
+    background: #070812;
+}
+.logo {
+    text-align: center;
+    height: 170px;
+    line-height: 170px;
+}
+.logo a {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Outfit', sans-serif;
+}
+.left-content {
+    text-align: right;
+}
+.left-content ul li {
+    border-bottom-color: #434956;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    display: block;
+    height: 50px;
+    background-image: url(../img/background/bg5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left-content ul li.active {
+    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+}
+.left-content ul li.active a {
+   color: #04060C;
+}
+.left-content ul li a {
+    color: #fff;
+    line-height: 50px;
+    padding-right: 30px;
+    display: block;
+    text-decoration: none;
+    font-family:'Outfit', sans-serif ;
+}
+.left-content ul li a span {
+    border-right-color: #d1ccd7;
+    border-right-style: solid;
+    border-right-width: 1px;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+.copyright {
+	border-top: 1px solid #2CE97A;
+	bottom: 0;
+	color: #ffffff;
+	left: 0;
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+}
+.copyright p {
+    margin-bottom: 0px;
+    font-family: 'Outfit', sans-serif;
+}
+.copyright p a {
+    color: #070812;
+    font-weight: 700;
+}
+.copyright p span {
+    display: block;
+    font-family: 'Outfit', sans-serif;
+}
+.right-side {
+    padding-left: 300px;
+}
+.right-content {
+    padding: 50px;
+}
+.content {
+    display: none;
+}
+.content.active {
+    display: block;
+}
+
+pre {
+    background: url(../img/pre_bg.png);
+    line-height: 19px;
+    text-align: left;
+    padding: 0px;
+    margin-top: 35px;
+    font-size: 13px;
+    margin-bottom: 35px;
+}
+.content a {
+  color: #16182C;
+  margin-right: 15px;
+  font-family: 'Outfit', sans-serif;
+}
+.content h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Outfit', sans-serif;
+}
+
+#one > h1 span {
+    background: var(--Button-Gradient, linear-gradient(90deg, #2CE97A 0%, #D9D314 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-family: 'Outfit', sans-serif;
+}
+
+.content#source > ul li span {
+    font-weight: 700;
+    display: block;
+    font-family: 'Outfit', sans-serif;
+}
+.content#source > ul li > ul{
+    padding-left: 25px;
+}
+.satisfication-area.color-bg::after {
+  background: red none repeat scroll 0 0 !important;
+}
